@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./public/css/owl.theme.css">
+    <link rel="stylesheet" href="./public/js/owl.carousel.js">
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <!-- slide cua w3 school -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <title>Do An FE1</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+
+
+            <!-- <nav class="navbar fixed-top container navbar-expand-lg navbar-dank py-0">
+                    <img class="logo" src="./public/images/logo.png" alt="logo" class="img-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Order Online</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Page</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> Gallery</a></li>
+                                    <li><a class="dropdown-item" href="#"> Chef </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-sp">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i>
+                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>  
+                </nav> -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <div class="img-fluid">
+                            <img class="logo" src="./public/images/logo.png" alt="logo">
+                        </div>
+
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"> <a class="nav-link" href="#">Home </a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"> Menu </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"> Order Online </a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> Gallery</a></li>
+                                    <li><a class="dropdown-item" href="#"> Chefs </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> Main Blog</a></li>
+                                    <li><a class="dropdown-item" href="#"> Single Post </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"> Contact </a></li>
+                            <li class="nav-sp">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i>
+                                    <span class="so0">
+                                        0
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid px-0">
+            <div class="w3-content-khoi w3-display-container">
+                <div class="w3-display-container mySlides">
+                    <img src="./public/images/slide1.jpg" height="620" width="1308" alt="slide background">
+                    <div class="center-right w3-large w3-container w3-padding-16 w3-animate-top">
+                        <div class="center-right">
+                            <h6 class="btn">
+                                Gourmet Restaurant
+                            </h6>
+                            <h1>
+                                FRESH, FAST,
+                                & DELICIOUS
+                            </h1>
+                            <a href="#">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <img src="./public/images/slide2.jpg" height="620" width="1308" alt="slide background">
+                    <div class="center-right w3-large container w3-animate-top ">
+                        <div class="center-right">
+                            <h6 class="btn">
+                                Gourmet Restaurant
+                            </h6>
+                            <h1>
+                                FRESH, FAST,
+                                & DELICIOUS
+                            </h1>
+                            <a href="#">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <img src="./public/images/slide3.jpg" height="620" width="1308" alt="slide background">
+                    <div class="center-left w3-large w3-container w3-padding-16 w3-animate-top">
+                        <div class="center-right">
+                            <h6 class="btn">
+                                Gourmet Restaurant
+                            </h6>
+                            <h1>
+                                FRESH, FAST,
+                                & DELICIOUS
+                            </h1>
+                            <a href="#">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+            </div>
+
+            <form id="form" action="#" method="post">
+                <input class="form-booking" type="text" placeholder="First Name" required="">
+                <input class="form-booking" type="text" placeholder="Your Phone" required="">
+                <input class="form-booking" type="date" required="">
+                <select class=" form-booking" name="Person" id="person">
+                    <option disabled selected>No Person</option>
+                    <option value="1 Person">1 Person</option>
+                    <option value="2 Person">2 Person</option>
+                    <option value="3 Person">3 Person</option>
+                    <option value="4 Person">4 Person</option>
+                    <option value="5 Person">5 Person</option>
+                </select>
+                <select class=" form-booking" name="Hours" id="hours">
+                    <option disabled selected>Hours</option>
+                    <option value="8 PM">8 PM</option>
+                    <option value="9 PM">9 PM</option>
+                    <option value="10 PM">10 PM</option>
+                    <option value="11 PM">11 PM</option>
+                </select>
+                <button class="form-btn">OK</button>
+            </form>
+        </div>
+
+    </header>
+
+    <div class="first-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 first-body-left">
+                    <h6>RESTAURANT</h6>
+                    <h3>About Gourmet</h3>
+                    <p>
+                        Sem at condimentum sceleri sque, odio eros vestibulum tortor, non posuere sapien elit at
+                        velit. Vestibulum ac porttitor dolor, ac feugiat nunc. Nulla eleifend massa tortor, nec
+                        laoreet lectus varius ac. Fusce scelerisque consequat eros, non venenatis turpis ultricies
+                        id. Etiam nec sagittis diam, a tempor risus.
+                        <br>
+                        <br>
+                        Nunc nisl felis, congue non euismod dignissim id eros. Maecenas eu molestie purus, in digni
+                        ssim nequeo nsectetur adipiscing elit.
+                    </p>
+                    <button class="btn-khoi">
+                        READ MORE
+                    </button>
+                </div>
+                <div class="col-md-5 container">
+                    <img src="./public/images/food.png" alt="food" class="img-fluid img-food">
+                </div>
+            </div>
+        </div>
+        <!-- second body -->
+        <div class="second-body">
+            <div class="title">
+                <h3>Special Dishes</h3>
+                <p>Cras facilisis lacus a magna luctus, nec pharetra ex varius.
+                    <br>
+                    Sed placerat suscipit massa, sed lobo rtis.
+                </p>
+            </div>
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-6 item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./public/images/product1.jpg" alt="#" class="item-img" width="210"
+                                    height="210">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item-info">
+                                    <a class="title" href="#">Pan Fried Potatoes</a>
+                                    <p>BBQ Eel, Cucumber, Eel Sauce, Pasta, Tomato Varieties</p>
+                                    <div class="item-price">52.00</div>
+                                    <a class="details" href="#">View details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./public/images/product2.jpg" alt="#" class="item-img" width="210"
+                                    height="210">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item-info">
+                                    <a class="title" href="#">Combo Food</a>
+                                    <p>2 x Pides, 1 x Garlic or Herb Bread, 1 x Small Dips, 1 x 1.25L Bottle Coke
+                                        Varieties</p>
+                                    <div class="item-price">52.00</div>
+                                    <a class="details" href="#">View details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-khoi second-body-btn-khoi" style="text-align:center;">ALL OUR DISHES</button>
+        </div>
+
+        <!-- third body -->
+        <div class="third-body">
+            <div class="tb-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 first-row">
+                            <h3>
+                                Gourmet restaurant
+                            </h3>
+                            <p>
+                                Cras facilisis lacus a magna luctus, nec pharetra ex varius.
+                                <br>
+                                Sed placerat suscipit massa, sed lobo rtis.
+                            </p>
+                            <div class="btn-khoi">ALL SERVICE</div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="item-border">
+                                <div class="item-img">
+                                    <img src="./public/images/004-pie.svg" alt="pie">
+                                </div>
+                                <div class="item-content">
+                                    <h3>Best Pie</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing
+                                        erat
+                                        eget
+                                        risus sollicitudin pellentesque et.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 item">
+                            <div class="item-border">
+                                <div class="item-img">
+                                    <img src="./public/images/005-birthday-cake.svg" alt="pie">
+                                </div>
+                                <div class="item-content">
+                                    <h3>Birthday Party</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing
+                                        erat
+                                        eget
+                                        risus sollicitudin pellentesque et.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="item-border">
+                                <div class="item-img">
+                                    <img src="./public/images/008-chef.svg" alt="pie">
+                                </div>
+                                <div class="item-content">
+                                    <h3>Private Chef</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing
+                                        erat
+                                        eget
+                                        risus sollicitudin pellentesque et.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="item-border">
+                                <div class="item-img">
+                                    <img src="./public/images/007-glass.svg" alt="pie">
+                                </div>
+                                <div class="item-content">
+                                    <h3>Party Event</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing
+                                        erat
+                                        eget
+                                        risus sollicitudin pellentesque et.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 item">
+                            <div class="item-border">
+                                <div class="item-img">
+                                    <img src="./public/images/010-bbq.svg" alt="pie">
+                                </div>
+                                <div class="item-content">
+                                    <h3>Best BBQ</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing
+                                        erat
+                                        eget
+                                        risus sollicitudin pellentesque et.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="item-border">
+                                <div class="item-img">
+                                    <img src="./public/images/011-dish.svg" alt="pie">
+                                </div>
+                                <div class="item-content">
+                                    <h3>Food Quality</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing
+                                        erat
+                                        eget
+                                        risus sollicitudin pellentesque et.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth body -->
+        <div class="fourth-body">
+            <div class="row">
+                <div class="col-md-6 left-content">
+                    <h6>RESTAURANT</h6>
+                    <h3>High Professional <br> Service</h3>
+                    <p>Sem at condimentum sceleri sque, odio eros vestibulum tortor, non posuere sapien elit at
+                        velit.
+                        Vestibulum ac porttitor dolor, ac feugiat nunc. Nulla eleifend massa tortor, nec laoreet
+                        lectus
+                        varius ac. Fusce scelerisque consequat eros, non venenatis turpis ultricies id. Etiam nec
+                        sagittis diam, a tempor risus.
+                        <br>
+                        <br>
+                        Nunc nisl felis, congue non euismod dignissim id eros. Maecenas eu molestie purus, in digni
+                        ssim
+                        nequeo nsectetur adipiscing elit.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="border-khoi">
+                                <div class="number">
+                                    59+
+                                </div>
+                                <div class="text">
+                                    Dishes
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border-khoi">
+                                <div class="number">
+                                    80k
+                                </div>
+                                <div class="text">
+                                    Restaurant
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border-khoi">
+                                <div class="number">
+                                    18yrs
+                                </div>
+                                <div class="text">
+                                    Experience
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 right-content">
+                    <img src="./public/images/banner-image2.png" alt="women baker">
+                </div>
+            </div>
+        </div>
+        <!-- fifth body -->
+        <div class="fifth-body">
+            <div class="fifth-body-container">
+                <div class="title title-center">
+                    <h3><b>Meet The Chefs</b></h3>
+                    <p>Cras facilisis lacus a magna luctus, nec pharetra ex varius.
+                        <br>
+                        Sed placerat suscipit massa, sed lobo rtis.
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="hinh-hover">
+                                <img src="./public/images/team1.jpg" alt="chef1">
+                                <div class="hinh-hover-2">
+                                    <ul class="icon">
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-facebook-f" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-twitter" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-instagram" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="name">
+                                    Ahin David
+                                </div>
+                                <div class="role">
+                                    Chef
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hinh-hover">
+                                <img src="./public/images/team2.jpg" alt="chef1">
+                                <div class="hinh-hover-2">
+                                    <ul class="icon">
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-facebook-f" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-twitter" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-instagram" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="name">
+                                    David Alexandra
+                                </div>
+                                <div class="role">
+                                    Chef
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hinh-hover">
+                                <img src="./public/images/team3.jpg" alt="chef1">
+                                <div class="hinh-hover-2">
+                                    <ul class="icon">
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-facebook-f" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-twitter" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-instagram" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="name">
+                                    Brown Christian
+                                </div>
+                                <div class="role">
+                                    Chef
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hinh-hover">
+                                <img src="./public/images/team4.jpg" alt="chef1">
+                                <div class="hinh-hover-2">
+                                    <ul class="icon">
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-facebook-f" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-twitter" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-label="Icon group item">
+                                                <i class="fa-brands fa-instagram" aria-hidden="true"
+                                                    title="Icon group item"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="name">
+                                    Kollian Dorat
+                                </div>
+                                <div class="role">
+                                    Chef
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- last body -->
+        <div class="last-body">
+            <div class="row">
+                <div class="container last-body-container">
+                    <div class="logo-carousel slider" data-arrows="true">
+                        <div class="slide"><img src="./public/images/logo1.png" alt="logo1"></div>
+                        <div class="slide"><img src="./public/images/logo2.png" alt="logo2"></div>
+                        <div class="slide"><img src="./public/images/logo3.png" alt="logo3"></div>
+                        <div class="slide"><img src="./public/images/logo4.png" alt="logo4"></div>
+                        <div class="slide"><img src="./public/images/logo5.png" alt="logo5"></div>
+                        <div class="slide"><img src="./public/images/logo1.png" alt="logo6"></div>
+                        <div class="slide"><img src="./public/images/logo2.png" alt="logo7"></div>
+                        <div class="slide"><img src="./public/images/logo3.png" alt="logo8"></div>
+                        <div class="slide"><img src="./public/images/logo4.png" alt="logo9"></div>
+                        <div class="slide"><img src="./public/images/logo5.png" alt="logo10"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- back to top -->
+        <div class="back-to-top">
+            <a href="#" class="btn-scroll-up" aria-label="Scroll Up" style="display: none;"><span
+                    class="fa fa-chevron-up" aria-hidden="true"></span></a>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="title">
+                            ABOUT US
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adi pisicing elit, sed do eiusmod tempor incid
+                            idunt
+                            ut
+                            labore et dolore magna aliqua. Utenim ad minim veniam, quisipsum...
+                        </p>
+                        <div>
+                            <ul class="icon">
+                                <li>
+                                    <a href="#" aria-label="Icon group item">
+                                        <i class="fa-brands fa-facebook-f" aria-hidden="true"
+                                            title="Icon group item"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="Icon group item">
+                                        <i class="fa-brands fa-twitter" aria-hidden="true" title="Icon group item"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="Icon group item">
+                                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"
+                                            title="Icon group item"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="Icon group item">
+                                        <i class="fa-brands fa-instagram" aria-hidden="true"
+                                            title="Icon group item"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="Icon group item">
+                                        <i class="fa-brands fa-pinterest-p" aria-hidden="true"
+                                            title="Icon group item"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="title">
+                            MORE INFO
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">Vision</a>
+                            </li>
+                            <li>
+                                <a href="#">Book a table</a>
+                            </li>
+                            <li>
+                                <a href="#">Our Chefs</a>
+                            </li>
+                            <li>
+                                <a href="#">Menu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="title">
+                            QUICKLINKS
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-md-4-last">
+                        <div class="title">
+                            CONTACT US
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-bookmark"></i>
+                            <span>4221 Melrose Street,Yakima, Washington No 889985</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            +1-202-555-0193
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            info@example.com
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-clock"></i>
+                            Open: 8 - 22.30
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="text">
+                        © Copyright 2020 Your Company by Payo Themes
+                    </div>
+                </div>
+            </div>
+            <div class="pic-blur"></div>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000);
+        }
+        
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
